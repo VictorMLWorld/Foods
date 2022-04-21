@@ -253,12 +253,29 @@ html {
   padding: 5rem 0;
 }
 
+.visit-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.dalas-link {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #555;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.9rem;
+  background-color: #fff;
+  border: 0.2rem solid #ffb607;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .gallery-link {
